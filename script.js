@@ -50,14 +50,26 @@ var confetti = new ConfettiGenerator(confettiSettings);
 
 confetti.render();
 
- let p = document.createElement("p");
- p.innerText = "Felicitari, ai luat decizia corecta 🎉 \n Dupa mergem sa si dansam!😉 /n Lasa-mi instagramul tau si vorbim acolo!";
-  p.style.fontSize = "2rem";
-  p.style.fontWeight = "bold";
-  p.style.textAlign = "center";
-  p.style.position = "absolute";
-  p.style.top = "50%";
-  p.style.left = "50%";
-  p.style.transform = "translate(-50%, -50%)";
-  document.body.appendChild(p);
-});
+ // Create a container to hold both the text and the image
+let container = document.createElement("div");
+container.style.position = "relative"; // Set container's position to relative
+container.style.textAlign = "center"; // Center align the content
+document.body.appendChild(container); // Append container to the body
+
+// Create the paragraph element (text)
+let p = document.createElement("p");
+p.innerText = "Congrats you made the right choice 🎉 \nDM me the time and venue 😉";
+p.style.fontSize = "2rem";
+p.style.fontWeight = "bold";
+container.appendChild(p); // Append text to the container
+
+// Create the image element (gif)
+let img = document.createElement("img");
+img.src = "claire-dancing.gif"; // Set the image source
+img.style.width = "auto"; // Adjust width as needed
+img.style.height = "auto"; // Maintain aspect ratio
+img.style.position = "relative"; // Set image's position to relative
+img.style.display = "block"; // Make the image a block element
+img.style.margin = "0 auto"; // Center the image horizontally
+img.style.paddingBottom = "200px";
+container.appendChild(img); // Append image to the container
