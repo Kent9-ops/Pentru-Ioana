@@ -73,3 +73,4 @@ img.style.display = "block"; // Make the image a block element
 img.style.margin = "0 auto"; // Center the image horizontally
 img.style.paddingBottom = "200px";
 container.appendChild(img); // Append image to the container
+});
