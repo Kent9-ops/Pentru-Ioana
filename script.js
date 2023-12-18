@@ -51,7 +51,7 @@ var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
 
  let p = document.createElement("p");
- p.innerText = "Felicitari! La locul nostru de iarna ne vedem! 🎉 \n Scrie-mi pe telegram😉";
+ p.innerText = "Felicitari, ai luat decizia corecta 🎉 \n Da un tzar😉";
   p.style.fontSize = "2rem";
   p.style.fontWeight = "bold";
   p.style.textAlign = "center";
