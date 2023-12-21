@@ -58,7 +58,7 @@ document.body.appendChild(container); // Append container to the body
 
 // Create the paragraph element (text)
 let p = document.createElement("p");
-p.innerText = "Ai luat una dintre cele mai bune decizii din viața ta.   \nTrimite-mi un mesaj pe telegram! \nPutem iesi doar la o plimbarica daca doresti sau sa bem doar ceva  \nSper ca iti place fetita dansatoare";
+p.innerText = "Ai luat una dintre cele mai bune decizii din viața ta.   \nTrimite-mi un mesaj pe telegram! \nPutem iesi doar la o plimbarica daca doresti sau sa bem un pahar de vin  \nSper ca iti place fetita dansatoare";
 p.style.fontSize = "2rem";
 p.style.fontWeight = "bold";
 container.appendChild(p); // Append text to the container
