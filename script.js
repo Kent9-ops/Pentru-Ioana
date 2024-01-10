@@ -58,7 +58,7 @@ document.body.appendChild(container); // Append container to the body
 
 // Create the paragraph element (text)
 let p = document.createElement("p");
-p.innerText = "Da, ai dreptate tu esti!.   \nSi de abia astept as te fac sa si simti asta, in cazul in care inca nu te simti iubita.\nDe abia astept sa-ti treaca infectia!  \nSi in februarie sau martie mergem in Barcelona, primul trip pe anul asta";
+p.innerText = "Stii,  asta este o metafora asupra relatiei noastre.   \nCum din niste bucati fara noima noi vom construi o floare frumoasa, asa vom construi si din neajunsurile si supararile noastre o relatie perfecta";
 p.style.fontSize = "2rem";
 p.style.fontWeight = "bold";
 container.appendChild(p); // Append text to the container
