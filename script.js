@@ -65,7 +65,7 @@ container.appendChild(p); // Append text to the container
 
 // Create the image element (gif)
 let img = document.createElement("img");
-img.src = "looney.gif"; // Set the image source
+img.src = "legofinal.gif"; // Set the image source
 img.style.width = "auto"; // Adjust width as needed
 img.style.height = "auto"; // Maintain aspect ratio
 img.style.position = "relative"; // Set image's position to relative
